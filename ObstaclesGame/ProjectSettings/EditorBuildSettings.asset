@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: b803f8103a6745148b4d7c099d527f3e
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 5afd2251c29622c4680c60e09b442645
+  - enabled: 1
+    path: Assets/Scenes/ObstacleGameEasy.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ObstacleGameNormal.unity
+    guid: 2c6a653061cf88c44b936914dc03ab8e
+  - enabled: 1
+    path: Assets/Scenes/ObstacleGameHard.unity
+    guid: 0ded15f06e86dbd489f4daeb1c8a2557
+  - enabled: 0
+    path: Assets/3rdPerson+Fly/Scenes/3rdPerson+Fly.unity
+    guid: edce6a3cd6b78e7459bd2864b9295f8c
+  m_configObjects: {}

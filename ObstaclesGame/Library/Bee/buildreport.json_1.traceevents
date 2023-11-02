@@ -1,0 +1,674 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698380027155292, "dur": 1038639, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698380027155312, "dur": 324609, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698380027479924, "dur": 704193, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698380028184118, "dur": 9813, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698380028194256, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698380027527054, "dur":545, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380027527607, "dur":214, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698380027527834, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698380027527857, "dur":220, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698380027528093, "dur":395, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380027528489, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164334, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164551, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164628, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164632, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164638, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164639, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164645, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164646, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164649, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164650, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164654, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164658, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164659, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164661, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164662, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164665, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164666, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164669, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164669, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164672, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164673, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164677, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164678, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164681, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164694, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028164711, "dur":855, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698380027528502, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027528503, "dur":21410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027549914, "dur":8917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1698380027558831, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027558932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027559005, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1698380027560056, "dur":20174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027580231, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027580458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027580681, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027581927, "dur":104574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027686502, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027686546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027686552, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027687186, "dur":42874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027730061, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027730137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027730145, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027731146, "dur":90978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027822124, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027822182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027822188, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027823389, "dur":77188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027900578, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027900660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380027900667, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380027901502, "dur":163449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380028064952, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380028065023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698380028065028, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698380028066356, "dur":97979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027528811, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027528812, "dur":21139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027549952, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698380027550740, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027550806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027553067, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1698380027554678, "dur":8038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698380027562717, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027562774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027562782, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1698380027564185, "dur":19857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027584042, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027584116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027584246, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027585469, "dur":24494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027609964, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027610078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027610086, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027610967, "dur":110108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027721087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027721094, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027722098, "dur":49641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027771740, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027771826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027771834, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027772703, "dur":69815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027842525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027842533, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027844137, "dur":78577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027922714, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027922795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380027922802, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380027923788, "dur":154904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380028078693, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380028078756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698380028078761, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698380028079495, "dur":84838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027528409, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027528496, "dur":21373, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027549892, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698380027549896, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027549965, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698380027549968, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027550209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027551545, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698380027553600, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1698380027553703, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027553754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027554255, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1698380027555105, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698380027555211, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027555287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027555293, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1698380027557763, "dur":31517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698380027589281, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027589432, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027589442, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game.exe" }}
+,{ "pid":12345, "tid":3, "ts":1698380027591016, "dur":21000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027612016, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027612092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027612099, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027612903, "dur":18293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027631197, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027631319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027631327, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027632242, "dur":36369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027668612, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027668676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027668684, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027669592, "dur":26199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027695793, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027695882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027695890, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027696767, "dur":21320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027718088, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027718238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027718246, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027719090, "dur":23636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027742728, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027742790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027742798, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027743987, "dur":48936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027792924, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027793009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027793017, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027796158, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027797185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027797192, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027797988, "dur":45050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027843044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027843051, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027845336, "dur":63064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027908400, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027908461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027908467, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027909202, "dur":39607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027948810, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027948900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027948906, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027949674, "dur":35675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027985350, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027985443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380027985451, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380027986284, "dur":96806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380028083094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698380028083100, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698380028083710, "dur":80629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027528679, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027528680, "dur":21208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027549892, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698380027550825, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027550868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027553526, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1698380027555092, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698380027555456, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027555527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027555533, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1698380027557518, "dur":4783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698380027562301, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027562362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027562369, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1698380027563931, "dur":33240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027597172, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027597314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027597320, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027598251, "dur":49676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027647928, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027647984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027647990, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027648761, "dur":30596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027679358, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027679437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027679445, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027680332, "dur":18957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027699290, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027699349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027699356, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027701174, "dur":35215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027736390, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027736473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027736481, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027738067, "dur":22541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027760609, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027760726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027760735, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027761567, "dur":24382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027785950, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027786078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027786083, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027787512, "dur":22244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027809763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027809771, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027811991, "dur":886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027812884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027812891, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027814932, "dur":2450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027817389, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027817398, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027818232, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027818823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027818831, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027819571, "dur":23484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027843060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027843066, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027844476, "dur":125885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027970362, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027970452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380027970460, "dur":3125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380027973605, "dur":138765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380028112371, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380028112432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698380028112437, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698380028113060, "dur":51272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027528430, "dur":69, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027528499, "dur":21391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027549891, "dur":9271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698380027559162, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027559212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027559226, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698380027560587, "dur":37693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027598281, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027598458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027598464, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027599707, "dur":19295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027619003, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027619056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027619062, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027619788, "dur":76944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027696733, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027696790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027696796, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027698347, "dur":24682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027723029, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027723089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027723096, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027724334, "dur":22735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027747070, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027747139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027747146, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027748630, "dur":23854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027772485, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027772547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027772553, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027773707, "dur":52752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027826460, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027826546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380027826554, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380027827631, "dur":198566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380028026198, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380028026254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380028026263, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698380028029687, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698380028029720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698380028029730, "dur":6435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698380028036180, "dur":128161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027528589, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027528589, "dur":21287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027549892, "dur":843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1698380027550735, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027550789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027552892, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1698380027553911, "dur":7173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1698380027561085, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027561138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027561145, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1698380027562014, "dur":36371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027598386, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027598422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027598429, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027599418, "dur":57551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027656970, "dur":743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027657718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027657724, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027661164, "dur":21631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027682796, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027682853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027682861, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027683583, "dur":42774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027726358, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027726438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027726467, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027727323, "dur":23027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027750351, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027750414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027750421, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027752929, "dur":31344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027784274, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027784340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380027784346, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380027785054, "dur":215202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380028000264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380028000272, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698380028001492, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1698380028001507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380028001550, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1698380028002481, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1698380028002497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380028002519, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1698380028003910, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698380028003924, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698380028003930, "dur":45489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1698380028049438, "dur":114898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027528583, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027528584, "dur":21299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027549891, "dur":9389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698380027559280, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027559320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027559332, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1698380027560558, "dur":24038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027584597, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027584646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027584652, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027585624, "dur":20239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027605863, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027605943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027605952, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027607094, "dur":105780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027712875, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027712969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027712977, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027714431, "dur":22059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027736491, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027736548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027736554, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027738138, "dur":26121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027764260, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027764319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027764325, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027765060, "dur":79788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027844854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027844861, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027846011, "dur":61140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027907152, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027907220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380027907228, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380027909915, "dur":90379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380028000295, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028000395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028000401, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698380028001460, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1698380028001530, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028001575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028001839, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1698380028002793, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028002807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028002811, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028004302, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028004313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028004317, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028009862, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028009878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028009885, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698380028012376, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698380028012395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028012455, "dur":6740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698380028019216, "dur":2243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1698380028021460, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028021554, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028021566, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1698380028023074, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1698380028023113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028023118, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1698380028026735, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698380028026752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028026758, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698380028029464, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1698380028029489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028029495, "dur":6627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1698380028036145, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1698380028036231, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028036271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698380028036277, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1698380028036942, "dur":127392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027528605, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027528605, "dur":21268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027549892, "dur":28106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1698380027577998, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027578080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027578274, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1698380027579519, "dur":22768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027602288, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027602372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027602379, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027603315, "dur":28649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027631965, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027632013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027632020, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027632646, "dur":32798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027665444, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027665528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027665536, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027668422, "dur":31807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027700230, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027700308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027700315, "dur":950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027701278, "dur":81980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027783259, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027783517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027783526, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027786152, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027786706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027786711, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027787526, "dur":31719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027819251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027819257, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027820073, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027821107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027821113, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027821894, "dur":82781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027904682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380027904690, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380027905873, "dur":145993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380028051866, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380028051923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698380028051928, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698380028053332, "dur":111011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027529064, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027529065, "dur":20816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027549891, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698380027550715, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027550775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027552856, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698380027554422, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698380027554509, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027554546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027554596, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1698380027555592, "dur":2672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027558265, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027558326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027558499, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027559600, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1698380027559696, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027559744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027559971, "dur":5240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1698380027565248, "dur":31563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027596812, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027596898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027596906, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027597949, "dur":20604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027618553, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027618612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027618619, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027619734, "dur":36104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027655838, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027655899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027655905, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027657493, "dur":18664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027676157, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027676262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027676271, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027677136, "dur":20424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027697560, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027697632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027697638, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027699151, "dur":23214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027722366, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027722423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027722429, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027723126, "dur":25316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027748442, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027748502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027748508, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027752901, "dur":110128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027863029, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027863100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027863106, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027867308, "dur":79185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027946493, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027946579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380027946586, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380027947343, "dur":98240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380028045584, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380028045682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698380028045690, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698380028046943, "dur":117399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027529172, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027529172, "dur":20736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027549909, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698380027550528, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027550732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027552853, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698380027555679, "dur":23116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027578795, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027578845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027578892, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027582192, "dur":23670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027605863, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027605944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027605952, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027606829, "dur":41032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027647863, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027647936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027647943, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027648731, "dur":31500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027680232, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027680298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027680304, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027682367, "dur":36596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027718963, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027719027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027719034, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027719928, "dur":23271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027743200, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027743498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027743505, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027744815, "dur":32909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027777725, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027777838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027777846, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027778950, "dur":79458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027858415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027858423, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027859290, "dur":27912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027887203, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027887294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380027887302, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380027888064, "dur":151257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380028039323, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380028039426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698380028039434, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698380028040595, "dur":123743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027529086, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027529087, "dur":20798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027549892, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1698380027550399, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027550712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027552851, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1698380027555206, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698380027555292, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027555322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027555326, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1698380027557204, "dur":76590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027633795, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027633856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027633861, "dur":9504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027643401, "dur":42188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027685590, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027685651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027685657, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027687712, "dur":32559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027720271, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027720317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027720323, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027722535, "dur":24348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027746884, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027746965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027746974, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027748631, "dur":36711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027785342, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027785398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027785404, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027786228, "dur":41089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027827324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027827331, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027828070, "dur":49751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027877822, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027877901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027877907, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027878631, "dur":30239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027908870, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027908922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380027908932, "dur":678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380027909622, "dur":101810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380028011433, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028011525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028011533, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698380028016662, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698380028016682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028016688, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698380028017754, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1698380028017838, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028017890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028017896, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1698380028020216, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698380028020234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028020241, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698380028022717, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698380028022738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028022745, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1698380028024230, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1698380028024258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028024265, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1698380028026288, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1698380028026301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028026304, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1698380028028319, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698380028028334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028028341, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1698380028029953, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698380028029969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698380028029973, "dur":6202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1698380028036190, "dur":128147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027529157, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027529157, "dur":20721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027549890, "dur":9150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698380027559041, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027559097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027559110, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1698380027559938, "dur":57567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027617506, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027617591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027617599, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027618705, "dur":36969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027655675, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027655756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027655764, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027657600, "dur":27411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027685012, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027685090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027685098, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027686330, "dur":26714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027713045, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027713111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027713123, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027714192, "dur":23996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027738188, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027738230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027738236, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027742295, "dur":21253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027763548, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027763620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027763628, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027764888, "dur":46546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027811440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027811447, "dur":3472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027814934, "dur":28695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027843636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027843642, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027845073, "dur":118493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027963567, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027963730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380027963738, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380027964971, "dur":197319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380028162291, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380028162350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698380028162355, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/admin/OneDrive/My tnh/Obstacle Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698380028164314, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1698380028164316, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698380028166212, "dur":1378, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698380028194354, "dur": 1316, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698380028194232, "dur": 1460, "ph": "X", "name": "Write chrome-trace events", "args": {} },
